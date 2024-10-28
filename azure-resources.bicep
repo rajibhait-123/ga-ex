@@ -1,7 +1,7 @@
 
 param location string ='australiaeast'
-param name string = 'StRs1'
-param stogareName string = '${toLower(name)}${uniqueString(resourceGroup().id)}'
+param stogareName string = 'ga-storage'
+
 
  
 
